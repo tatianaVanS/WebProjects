@@ -1,0 +1,505 @@
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (min-device-height: 481px)
+  and (max-device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  #container {
+    height: 1527px;
+  }
+
+  #header-wrapper {
+    height: 45px
+  }
+
+  body{
+    background-size: 864px 486px;
+  }
+  
+  #header-rectangle {
+    height: 30px;
+  }
+
+  #header-frame {
+    top: 28px;
+  }
+
+  #ddc-logo {
+    top: -7px;
+    width: 118px;
+    height: 78px;
+    background: url(../images/DD_logo_sml.png) no-repeat;
+    -ms-transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    transform: scale(0.8,0.8);
+
+  }
+
+  #ww-logo{
+    top: 42px;
+    -ms-transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    transform: scale(0.8,0.8);
+  }
+
+  #titleText h1 {
+    top: 90px;
+    left: 5px;
+    font-size: 16px;
+  }
+
+  #subText p {
+    top: 71px;
+    font-size: 15px;
+  }
+
+  #bodyCopy p {
+    visibility: hidden;
+  }
+
+  #bodyCopyMobile p {
+    visibility: visible;
+    top: -12px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  #mobileTandC {
+    top: 214px;
+  }
+
+  #subText2 p {
+    top: 18px;
+    font-size: 16px;
+    line-height: 17px;
+    width: 90%;
+  }
+
+  .sBtn {
+    top:  22px;
+    -ms-transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    transform: scale(0.8,0.8);
+  }
+  
+  #cloud-gradient{
+    top: 45px;
+    height: 263px;
+  }
+
+  #cloud-gradient-rule {
+    top: 260px;
+  }
+
+  .wheel {
+    background-image: url(../images/mWheel/vert/wheel_wedges.png);
+  }
+
+   .blackBox {
+    visibility: visible;
+    width: 200%;
+  }
+
+  #wheel-wrapper {
+    top: 197px;
+    left: 53px;
+    z-index: -1;
+    -ms-transform: rotate(180deg) scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: rotate(180deg) scale(0.6,0.6); /* Safari */
+    transform: rotate(180deg) scale(0.6,0.6);
+  }
+
+  .marker {
+    width: 102px;
+    height: 82px;
+    top: 461px;
+    left: 196px;
+  }
+
+  #footer-rectangle {
+    height: 30px;
+    opacity: .85;
+  }
+
+  #t-and-c {
+    bottom: -5px;
+    z-index: 100;
+    position: absolute;
+  }
+
+  #t-and-c p {
+    width: 93%;
+    position: relative;
+  }
+
+  #disclaimer p {
+    bottom: -4px;
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+
+  #missed-game-wrapper {
+    top: 620px;
+  }
+
+  #missedGameRect {
+    width: 92%;
+    height: 656px;
+  }
+
+  #missedGameHead p {
+    font-size: 21px;
+  }
+
+  .missedGameSubhead p {
+    width: 95%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  div#icon-wrapper {
+    padding: 30px 0px;
+  }
+
+  .closeBtn {
+    top: 30px;
+    left: 133px;
+  }
+
+  .pBtn {
+    top: 490px;
+    left: 0px;
+  }
+
+  .prevGame {
+    top: 568px;
+    left: 52px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .anchor{
+    display: block;
+    height: 45px;
+    margin-top: -45px;
+    visibility: hidden;
+  }
+
+  #popupContainer {
+    width: 100%;
+  }
+
+  #pu-wrapper {
+    width: 295px;
+    top: -85px;
+    left: 14px;
+    z-index: 2000;
+    -ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Safari */
+    transform: scale(0.9,0.9);
+  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  #container{
+    height: 1200px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #header-wrapper {
+    height: 40px
+  }
+
+  body{
+    background-size: 1285px 756px;
+    background-position-y: -13px;
+    background-position-x: -161px;
+  }
+  
+  #header-rectangle {
+    height: 29px;
+  }
+
+  #header-frame {
+    top: 24px;
+  }
+
+  #ddc-logo {
+    top: -11px;
+    left: -234px;
+    width: 118px;
+    height: 78px;
+    background: url(../images/DD_logo_sml.png) no-repeat;
+    -ms-transform: scale(0.7,0.7);
+    -webkit-transform: scale(0.7,0.7);
+    -moz-transform: scale(0.7,0.7);
+    -o-transform: scale(0.7,0.7);
+    transform: scale(0.7,0.7);
+
+  }
+
+  #ww-logo{
+    top: -2px;
+    right: 88px;
+    -ms-transform: scale(0.5,0.5);
+    -webkit-transform: scale(0.5,0.5);
+    -moz-transform: scale(0.5,0.5);
+    -o-transform: scale(0.5,0.5);
+    transform: scale(0.5,0.5);
+  }
+
+  #text-wrapper {
+    width: 72%;
+    left: -5px;
+  }
+
+  #titleText h1 {
+    top: 81px;
+    font-size: 16px;
+  }
+
+  #subText p {
+    top: 62px;
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  #bodyCopy p {
+    visibility: hidden;
+  }
+
+  #bodyCopyMobile p {
+    visibility: visible;
+    top: -135px;
+    width: 90%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  #subText2 p {
+    top: -55px;
+    font-size: 14px;
+    line-height: 15px;
+    width: 82%;
+  }
+
+  .sBtn{
+    top:  -137px;
+    -ms-transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    -moz-transform: scale(0.8,0.8);
+    -o-transform: scale(0.8,0.8);
+    transform: scale(0.8,0.8);
+  }
+
+  #mobileTandC {
+    top: 187px;
+    left: -83px;
+  }
+  
+  #cloud-gradient{
+    top: -98px;
+    height: 755px;
+    z-index: -1;
+  }
+
+  #cloud-gradient-rule {
+    top: 432px;
+    visibility: hidden;
+  }
+
+  .blackBox {
+    visibility: visible;
+  }
+
+  .wheel {
+    background-image: url(../images/mWheel/horz/wheel_wedges.png);
+  }
+
+  #wheel-wrapper {
+    top: -234px;
+    left: 377px;
+    z-index: -1;
+    -ms-transform: rotate(90deg) scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: rotate(90deg) scale(0.6,0.6); /* Safari */
+    -moz-transform: rotate(90deg) scale(0.6,0.6);
+    -o-transform: rotate(90deg) scale(0.6,0.6);
+    transform: rotate(90deg) scale(0.6,0.6);
+  }
+
+  .marker {
+    width: 102px;
+    height: 82px;
+    top: 461px;
+    left: 196px;
+  }
+
+  #footer-rectangle {
+    height: 21px;
+  }
+
+  #t-and-c {
+    bottom: -50px;
+    position: absolute;
+  }
+
+  #t-and-c p {
+    width: 90%;
+    z-index: 100;
+    position: relative;
+    -webkit-text-size-adjust: 100%
+  }
+
+  #disclaimer p {
+    bottom: -1px;
+    font-size: 7px;
+    line-height: 9px;
+    left: -84px;
+  }
+
+  #missed-game-wrapper {
+    top: 500px;
+  }
+
+
+  #missedGameRect {
+    width: 93%;
+    height: 478px;
+  }
+
+  #missedGameHead p {
+    font-size: 20px;
+  }
+
+  .missedGameSubhead p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  div#icon-wrapper {
+    padding: 30px 0px;
+  }
+
+  .closeBtn {
+    top: 20px;
+    left: 293px;
+  }
+
+  .pBtn {
+    top: 290px;
+    left: 145px;
+  }
+
+  .prevGame {
+    top: 365px;
+    left: 343px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .anchor {
+    display: block;
+    height: 40px;
+    margin-top: -40px;
+    visibility: hidden;
+  }
+
+
+  #pu-wrapper {
+    width: 595px;
+    bottom: 1177px;
+    left: -12px;
+    z-index: 2000;
+    -ms-transform: scale(0.85,0.85); /* IE 9 */
+    -webkit-transform: scale(0.85,0.85);/* Safari */
+    -moz-transform: scale(0.85,0.85);
+    -o-transform: scale(0.85,0.85); 
+    transform: scale(0.85,0.85);
+  }
+
+  #popupContainer {
+    width: 100%;
+    top: 37px;
+  }
+
+  #pu1{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu1.png);
+  }
+
+  #pu2{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu2.png);
+  }
+
+  #pu3{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu3.png);
+  }
+
+  #pu4{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu4.png);
+  }
+
+  #pu5{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu5.png);
+  }
+
+  #blue {
+    background-image: url(../images/mWheel/horz/blueWoFTD.png);
+  
+  }
+
+  #cyan{
+    background-image: url(../images/mWheel/horz/cyanDDC.png);
+  }
+
+  #green{
+    background-image: url(../images/mWheel/horz/greenWoF345.png);
+  }
+
+  #orange{
+    background-image: url(../images/mWheel/horz/orangeWoFU5.png);
+  }
+
+  #pink{
+    background-image: url(../images/mWheel/horz/pinkDDC.png);
+  }
+
+  #purple{
+    background-image: url(../images/mWheel/horz/purpleDDC.png);
+  }
+
+  #red{
+    background-image: url(../images/mWheel/horz/redWoFES.png);
+  }
+
+  #yellow{
+    background-image: url(../images/mWheel/horz/yellowWoFDD.png);
+  }
+
+}

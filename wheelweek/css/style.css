@@ -1,0 +1,583 @@
+/* WHEEL WEEK PAGE STYLING*/
+/**
+{
+    margin:0;
+    padding:0;
+}*/
+
+body{
+	background: #000000 url(../images/starryBG_v2.jpg) repeat-x top center;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	font-family: Arial;
+	font-size: 47px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 47px;
+	color: #ffffa5!important;
+	text-align: center;
+	letter-spacing: 1px;
+
+}
+
+p{
+	font-family: Arial;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 1px;
+	
+}
+
+a{
+	font-family: Arial;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: #ffffa5;
+	text-decoration: underline;
+}
+
+
+
+
+.winner_text {
+font-family: Arial;
+font-size: 47px;
+font-style: normal;
+font-variant: normal;
+font-weight: 600;
+line-height: 47px;
+color: #FFFFA5 !important;
+text-align: center;
+letter-spacing: 1px;
+}
+
+.subheader_text {
+font-size: 24px;
+line-height: 28px;
+font-weight:800;
+}
+
+.infobody_text {
+font-size: 16px;
+line-height: 28px;
+font-family: Arial;
+font-size: 19px;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+color: #FFF;
+letter-spacing: 1px;
+}
+
+.infobody_text_mobile{
+font-size: 16px;
+line-height: 28px;
+font-family: Arial;
+font-size: 19px;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+color: #FFF;
+letter-spacing: 1px;
+display: none;
+}
+
+.comeback_text {
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+line-height: 60px;
+color: #FFFFA5;
+}
+
+
+.anchor{
+    display: block;
+    visibility: hidden;
+}
+
+
+.prevGame{
+    margin: 0 auto;
+    padding: 0;
+    top: 467px;
+    left: 606px;
+    z-index: 700;
+    position: relative;
+}
+
+#container{
+	position: absolute;
+	width: 100%;
+	min-width: 320px;
+	height: 1080px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+#header-wrapper{
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	position: fixed;
+
+}
+
+#header-rectangle{
+	width: 100%;
+	height: 58px;
+	top: 0;
+	background: #000000 repeat;
+	margin: 0;
+	padding: 0;
+	z-index: 8;
+	position: fixed;
+
+}
+
+#header-frame {
+	background: url(../images/gold_frame-top.png) repeat-x;
+	width: 100%;
+	height: 6px;
+	top: 50px;
+	margin: 0 auto;
+	padding: 0;
+	z-index: 9;
+	position: fixed;
+	box-shadow: 3px 3px 3px #000000;
+}
+
+#ddc-logo {
+	background: url(../images/logo_white_igt_150x150.png) no-repeat;
+	width: 150px;
+	height: 100px;
+	top: 12px;
+	margin: 0 auto;
+	padding: 0;
+	z-index: 10;
+	position: relative;
+
+}
+
+#ww-logo-wrapper {
+	height: 0;
+	z-index: 20;
+	position: relative;
+}
+
+
+
+#ww-logo {
+	/*background: url(../images/ww_logo.png) no-repeat;*/
+	max-width: 100%;
+	width: 748px;
+	/*height: 195px;*/
+	top: 100px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+
+}
+
+#ww-logo img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+#text-wrapper{
+	top: 0px;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 100;
+	position: absolute;
+}
+
+
+#subText p{
+	width: 100%;
+	font-size: 24px;
+	line-height: 28px;
+	top: 295px;
+	margin: 0px auto;
+	z-index: 100;
+	position: relative;
+}
+
+#bodytext p{
+	width: 930px;
+	top: 280px;
+	line-height: 28px;
+	margin: 0px auto;
+	z-index: 100;
+	position: relative;
+	text-align: center;
+
+}
+
+#disclaimer p{
+	bottom: -12px;
+	font-size: 10px;
+	line-height: 16px;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 1000;
+	position: relative;
+}
+
+.mobileTandC {
+	text-align: center;
+	line-height: 40px;
+}
+
+.mobileTandC a {
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 40px;
+}
+
+.mobileTandC a:hover, a:focus {
+	font-size: 12px;
+	color: #ffffa5;
+	line-height: 40px;
+}
+
+  #t-and-c p{
+	width: 90%;
+	 bottom: 75px;
+	font-size: 12px;
+	line-height: 13px;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 1000;
+	
+	color:#ffffff;
+  }
+
+  #t-and-c {
+	width: 100%;
+    bottom: 135px;
+    position: absolute;
+  }
+
+
+
+#cloud-gradient{
+	width: 100%;
+	height: 600px;
+	top: 20px;
+	position: absolute;
+	z-index: 1;
+	background: #000000;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 60%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 60%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#cloud-gradient-rule{
+	top: 598px;
+	width: 100%;
+	height: 3px;
+	background: url(../images/lineDecor.png) no-repeat center;
+	z-index: 2;
+	position: relative;
+}
+
+.blackBox{
+    top: 254px;
+    width: 100%;
+    height: 300px;
+    visibility: hidden;
+	margin: 0 auto;
+	z-index: 1;
+	position: relative;
+	background-color: #000;
+}
+
+#missed-game-wrapper{
+	width: 100%;
+	position: absolute;
+
+}
+
+#missedGameContainer{
+	position: relative;
+}
+
+#missedGameRect{
+    top: 0px;
+    width: 60%;
+    height: 350px;
+    margin: 0 auto;
+	z-index: 700;
+	opacity: 0;
+	visibility: hidden;
+	position: relative;
+	background-color: #232222; /*rgba(93,93,93, .7);*/
+	border-radius: 20px; 
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	border: 4px solid #71136B;
+
+}
+
+#missedGameHead p{
+    width: 100%;
+    color: #ffffa5;
+    text-align: center;
+    z-index: 725;
+    position: relative;
+    font-size: 25px;
+}
+
+.missedGameSubhead p{
+    width: 90%;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    z-index: 725;
+    margin: 0 auto;
+    position: relative;
+    letter-spacing: normal;
+
+}
+
+.day p{
+	top: -22px;
+	left: 2px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: left;
+    margin: 0 auto;
+	padding: 0;
+    position: relative;
+    letter-spacing: normal;
+}
+
+.day1Color, .day2Color, .day3Color, .day4Color, .day5Color, .day6Color p {
+	color: #ffffff;
+	opacity: .1;
+}
+
+div#icon-wrapper{
+    width: 100%;
+    height: 130px;
+    margin: 0 auto;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.missedGameBox{
+	width: 115px;
+	height: 86px;
+	margin: 0 auto;
+	z-index: 700;
+	position: relative;
+	background-color: #484848;
+	border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	-webkit-border-radius: 8px; 
+}
+
+#d1Box{
+	width: 115px;
+	height: 86px;
+    margin: 15px;
+    display: inline-block;
+}
+
+#d1Icon{
+	width: 115px;
+	height: 86px;
+	top: 0px;
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+	background-image: url(../images/popups/icon_U5.png);
+}
+
+#d2Box{
+	width: 115px;
+	height: 86px;
+    margin: 15px;
+    display: inline-block;
+}
+
+#d2Icon{
+	width: 115px;
+	height: 86px;
+	top: 0px;
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+	background-image: url(../images/popups/icon_wofXS.png);
+}
+
+#d3Box{
+	width: 115px;
+	height: 86px;
+    margin: 15px;
+    display: inline-block;
+}
+
+#d3Icon{
+	width: 115px;
+	height: 86px;
+	top: 0px;
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+	background-image: url(../images/popups/icon_wofDD.png);
+}
+
+#d4Box{
+	width: 115px;
+	height: 86px;
+    margin: 15px;
+    display: inline-block;
+}
+
+#d4Icon{
+	width: 115px;
+	height: 86px;
+	top: 0px;
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+	background-image: url(../images/popups/icon_wof345.png);
+}
+
+#d5Box{
+	width: 115px;
+	height: 86px;
+    margin: 15px;
+    display: inline-block;
+}
+
+#d5Icon{
+	width: 115px;
+	height: 86px;
+	top: 0px;
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+	background-image: url(../images/popups/icon_wofTD.png);
+}
+
+#d6Box{
+	width: 115px;
+	height: 86px;
+    margin: 15px;
+    display: inline-block;
+}
+
+#d6Icon{
+	width: 115px;
+	height: 86px;
+	top: 0px;
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+	background-image: url(../images/popups/icon_ddc.png);
+}
+
+
+.closeBtn{
+	top: 27px;
+	left: 435px;
+	width: 29px;
+	height: 29px;
+	background: url("../images/popups/xBtn.png") no-repeat scroll 0% 0%;
+	cursor: pointer;
+	margin: 0 auto;
+	z-index: 1;
+	position: relative;
+}
+
+.sBtn {
+	top: 270px;
+	width: 173px;
+	height: 50px;
+	background: url("../images/spinBtn.png") no-repeat scroll 0% 0%;
+	cursor: pointer;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.sBtn:hover, .sBtn:focus {
+	background: url("../images/spinBtnHover.png") no-repeat scroll 0% 0%;
+}
+
+
+.pBtn {
+	top: 434px;
+	left: 25px;
+	width: 173px;
+	height: 50px;
+	background: url("../images/playNowBtn.png") no-repeat scroll 0% 0%;
+	cursor: pointer;
+	margin: 0 auto;
+	z-index: 1;
+	position: relative;
+
+}
+
+.pBtn:hover, .pBtn:focus {
+	background: url("../images/playNowBtnHover.png") no-repeat scroll 0% 0%;
+	z-index: 1;
+}
+
+.chipsBtn {
+	top: 385px;
+	left: 25px;
+	width: 173px;
+	height: 50px;
+	background: url("../images/chipsBtn.png") no-repeat scroll 0% 0%;
+	cursor: pointer;
+	margin: 0 auto;
+	z-index: 1;
+	position: relative;
+	visibility: hidden;
+
+}
+
+.chipsBtn:hover, .chipsBtn:focus {
+	background: url("../images/chipsBtnHover.png") no-repeat scroll 0% 0%;
+	z-index: 1;
+}
+
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
+}
+
+#footer-rectangle{
+	width: 100%;
+	height: 58px;
+	bottom: 0;
+	left: 0;
+  	background: #242424;
+  	z-index: 1000;
+  	position: fixed;
+ 	background-image: -webkit-linear-gradient(top, #242424, #101010);
+  	background-image: -moz-linear-gradient(top, #242424, #101010);
+  	background-image: -ms-linear-gradient(top, #242424, #101010);
+  	background-image: -o-linear-gradient(top, #242424, #101010);
+  	background-image: linear-gradient(to bottom, #242424, #101010);
+}
+
+
+

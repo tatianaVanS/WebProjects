@@ -1,0 +1,138 @@
+/* Sticky nav styles
+-------------------------------------------------- */
+.nav-container {
+  width: 100%;
+  height: 33px;
+  z-index: 1000;
+  position: relative;
+}
+
+#ddc-logo {
+  background: url(../img/navbar/DD_logo_sml.png) no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  top: 11px;
+  width: 62px;
+  height: 40px;
+  margin: 0 18px;
+  padding: 0;
+  z-index: 10;
+  position: fixed;
+}
+
+#gold-frame {
+  background: url(../img/navbar/gold_frame-top.png) repeat-x;
+  width: 100%;
+  height: 2px;
+  top: 30px;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 9;
+  position: fixed;
+  box-shadow: 3px 3px 3px #000000;
+}
+
+#nav-color-bar {
+  width: 100%;
+  height: 30px;
+  top: 0;
+  background: #259b02 repeat;
+  margin: 0;
+  padding: 0;
+  z-index: 8;
+  position: fixed;
+}
+
+/* Navbar Media Queries
+-------------------------------------------------- */
+/* Centers logo on devices when the orientation is portrait */
+@media (min-width: 320px){
+  .nav-container {
+    position: fixed;
+  }
+
+  #ddc-logo {
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+/* Centers logo beginning width tablet-sized devices, swaps small logo for larger logo, and increase the navbar height */
+@media (min-width: 768px){
+  
+  .nav-container {
+    height: 53px;
+    position: fixed; /* remove position for logo to move the the left side */
+  }
+
+  #ddc-logo {
+    background: url(../img/navbar/logo_white_igt_150x150.png) no-repeat;
+    background-size: contain;
+    width: 113px;
+    height: 76px;
+    top: 14px;
+    margin: 0 auto; /* margin: 0 30px; - logo to the left*/
+    position: relative; /* remove position - anchors logo to left */
+  }
+
+  #gold-frame {
+    height: 6px;
+    top: 45px;
+  }
+
+  #nav-color-bar {
+    height: 50px;
+  }
+}
+
+
+
+/*========================================================================================
+=========================================================================================*/
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px; 
+  z-index: 1000;
+  background-color: #b7b7b7; /* change footer color here */
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container .text-muted {
+  margin: 3px 0;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* Footer Media Queries
+-------------------------------------------------- */
+@media (min-width: 768px){
+  
+  .footer {
+    height: 60px; 
+  }
+
+  .container .text-muted {
+    margin: 20px 0;
+  }
+}

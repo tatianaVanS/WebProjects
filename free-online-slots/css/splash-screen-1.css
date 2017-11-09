@@ -1,0 +1,463 @@
+a,
+a:focus,
+a:hover {
+	color: #777;
+}
+
+html,
+body, section {
+	height: auto;
+	background-color: #000;
+}
+
+body {
+	font-family: 'Futura', 'Futura Medium', Arial, sans-serif;
+}
+
+section {
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+/*css reset*/
+html, body {margin:0; padding:0;}
+
+
+/* Header/Footer Styling ====================
+===========================================*/
+.navbar-default {
+    background-color: #000;
+    border-color: #F9C632;
+}
+
+.navbar {
+    min-height: 50px;
+    margin-bottom: 5px;
+}
+
+.container .text-muted {
+    color: #fff;
+    text-align: center;
+    margin: 9px 0;
+}
+
+.footer {
+	background-color: #000;
+	height: 80px;
+	position: relative;
+    /*bottom: -779px;*/
+}
+
+
+/* Text Elements ====================
+===================================*/
+
+.h1, h1 {
+	color: #F9C632;
+	font-weight: 400;
+	font-size: 31px; font-size: 9.7vw;
+	margin-top: 10px;
+	position: relative;
+}
+
+.h3, h3 {
+	font-size: 17px;
+}
+
+.h4, h4 {
+    font-weight: 300;
+    font-size: 16px; font-size: 4.8vw;
+    margin-top: -6px;
+    position: relative;
+}
+
+#login {
+    top: 7px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    right: 0;
+}
+
+.login-text {
+    color: #fff;
+}
+
+.inner {
+    padding: 10px 30px;
+}
+
+.lead-style {
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* Image Elements ===================
+===================================*/
+#hero1 {
+	background-image: url(../img/splash-screen-1/bg1.jpg);
+	background-size: contain;
+}
+
+#hero2 {
+	background-image: url(../img/splash-screen-1/bg2.jpg);
+	background-size: contain;
+}
+
+.hero, .hero1-content, .hero2-content{
+  text-align: center; 
+  position: relative;
+  width: 100%;
+}
+
+.hero2-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#city-lights {
+	background: url(../img/splash-screen-1/city-lights.png) no-repeat center center;
+	width: 100%;
+    height: 428px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+#large-logo img {
+	width: 100%;
+	max-width: 564px;
+	min-width: 220px;
+	background-size: contain;
+	position: relative;
+	margin: 0 auto;
+	padding: 60px 80px 0px 80px;
+	z-index: 1;
+}
+
+.app-ctnr-padding {
+	padding-top: 20px;
+	padding-bottom: 7px;
+}
+
+.app-btn-padding {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.app-inner {
+    padding: 0 60px;
+}
+
+#app-store-wrapper {
+	background: url(../img/splash-screen-1/neon_p.png) no-repeat center center;
+	width: 80%;
+    height: auto;
+    margin: 0 auto;
+	padding: 65px 0px 25px 0px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#apple-app-store, #google-play-store, #amazon-app-store {
+    height: auto;
+    margin: auto 2px;
+    display: inline-block;
+}
+
+#apple-app-store img {
+	width: 137px;
+}
+
+#google-play-store img {
+	width: 137px;
+}
+
+#amazon-app-store img {
+	width: 137px;
+}
+
+/*#neon {
+	background: url(../img/splash-screen-1/neon.png) no-repeat center center;
+	width: 100%;
+	height: 218px;
+	position: absolute;
+	margin: auto 0;
+    top: 238px;
+}*/
+
+
+/* Media Queries =======================================================
+======================================================================*/
+@media (min-width: 360px){
+	#large-logo img {
+	    width: 85%;
+	}
+}
+
+@media (min-width: 480px) and (orientation: landscape){
+	#login {
+	    text-align: right;
+	    right: 7px;
+	}
+
+	#large-logo img {
+	    width: 50%;
+	    padding: 60px 45px 0px 45px;
+	}
+
+	.h1, h1 {
+	    font-size: 45px;
+	    font-size: 8vw;
+	    margin-top: 3px;
+	}
+
+	.h4, h4 {
+	    font-size: 23px;
+	    font-size: 4vw;
+	    margin-top: -10px;
+	    margin-bottom: 0px;
+	}
+
+	#app-store-wrapper {
+		background: url(../img/splash-screen-1/neon_l.png) no-repeat center center;
+		background-size: contain;
+		width: 95%;
+	}
+
+	.app-inner {
+	    padding: 0 50px;
+	}
+
+	#apple-app-store img {
+		width: 120px;
+	}
+
+	#google-play-store img {
+		width: 106px;
+	}
+
+	#amazon-app-store img {
+		width: 106px;
+	}
+
+	.inner {
+	    padding: 0px 62px;
+	}
+}
+
+/* Special Cases =======================================================
+======================================================================*/
+@media (min-width: 508px) and (orientation: portrait){
+	#app-store-wrapper {
+		background: url(../img/splash-screen-1/neon_l.png) no-repeat center center;
+		background-size: contain;
+		width: 99%;
+	}
+
+	.app-inner {
+	    padding: 0 35px;
+	}
+
+	#apple-app-store img {
+	    width: 140px;
+	}
+
+	#google-play-store img {
+	    width: 119px;
+	}
+
+	#amazon-app-store img {
+	    width: 120px;
+	}
+
+	.inner {
+	    padding: 10px 55px;
+	}
+}
+
+@media (min-width: 568px) and (orientation: landscape){
+	#large-logo img {
+	    width: 40%;
+	}
+
+	#app-store-wrapper {
+		width: 90%;
+		padding: 75px 0px 25px 0px;
+	}
+
+	.inner {
+	    padding: 0px 75px;
+	}
+
+
+}
+
+@media (min-width: 640px) and (orientation: landscape){
+	.h4, h4 {
+	    margin-bottom: 5px;
+	}
+
+	#app-store-wrapper {
+	    width: 90%;
+	    padding: 80px 0px 25px 0px;
+	}
+
+	#apple-app-store img {
+	    width: 140px;
+	}
+
+	#google-play-store img {
+	    width: 119px;
+	}
+
+	#amazon-app-store img {
+	    width: 120px;
+	}
+
+	.inner {
+	    padding: 10px 75px;
+	}
+}
+
+@media (min-width: 768px) {
+	#login {
+	    text-align: right;
+	    right: 7px;
+	}
+
+	#city-lights {
+		opacity: .8;
+	    top: -31px;
+    	right: 12px;
+	    visibility: visible;
+	    -webkit-filter: saturate(2);
+	    -moz-filter: saturate(2);
+	    filter:saturate(2);
+	}
+
+	.h1, h1 {
+	    font-size: 54px;
+	    font-size: 7vw;
+	    margin-top: 10px;
+	    -webkit-filter: drop-shadow(5px 5px 5px black);
+	    -moz-filter: drop-shadow(5px 5px 5px black);
+	    filter: drop-shadow(5px 5px 5px black);
+	}
+
+	.h4, h4 {
+		font-size: 25px;
+	    font-size: 3.3vw;
+	    margin-top: -9px;
+	    margin-bottom: 25px;
+	}
+
+	#app-store-wrapper {
+		background: url(../img/splash-screen-1/neon_l.png) no-repeat center center;
+		background-size: contain;
+		width: 95%;
+	}
+
+	.app-inner {
+	    padding: 0 60px;
+	    position: relative;
+	    top: 7px;
+	}
+
+	#apple-app-store, #google-play-store, #amazon-app-store {
+	    margin: auto 3px;
+	}
+
+	#apple-app-store img {
+	    width: 170px;
+	}
+
+	#google-play-store img {
+	    width: 148px;
+	}
+
+	#amazon-app-store img {
+	    width: 150px;
+	}
+
+	.inner {
+    	padding: 27px 175px 80px 174px;
+	}
+
+	.lead-style {
+	    font-size: 16px;
+	    line-height: 1.5;
+	}
+
+	.container {
+		width: 550px;
+	}
+}
+
+@media (min-width: 768px) and (orientation: portrait){
+	.hero1-content {
+		top: 60px;
+	}
+
+	#large-logo img {
+	    padding: 80px 110px 20px 110px;
+	}
+}
+
+@media (min-width: 1024px){
+	#large-logo img {
+	    width: 308px;
+	    padding: 70px 45px 0px 45px;
+	}
+
+	.h1, h1 {
+	    font-size: 55px;
+	    /*font-size: 4.7vmax; */
+	}
+
+	.h4, h4 {
+	    font-size: 25px;
+	    /*font-size: 2.3vmax;*/
+	}
+
+	.app-inner {
+	    top: 3px;
+	}
+
+	.inner {
+	    width: 500px;
+	    padding: 30px 0 25px 0;
+	    margin: 0 auto;
+	}
+
+	.lead-style {
+	    font-size: 17px;
+	}
+
+}
+
+@media (min-width: 1024px) and (orientation: portrait){
+	.inner {
+    	padding: 27px 0 80px 0;
+	}
+
+}
+
+@media (min-width: 1200px){
+	#hero1, #hero2 {
+	    background-size: cover;
+	}
+
+	.lead-style {
+	    font-size: 18px;
+	}
+}
+

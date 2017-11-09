@@ -1,0 +1,1073 @@
+/*--------Media Queries---------*/
+
+/*Element repositioning*/
+
+/*Hide mobile terms and conditions link on devices larger than 768*/
+@media only screen and (min-width: 700px){
+	
+	.mobileTandC {
+	    display: none;
+ 	}
+
+
+}
+
+/*@media only screen and (max-width: 530px) { /* Tatiana Change */
+
+  /*#pu-wrapper {
+    width: 595px;
+    top: -56px;
+    left: -38px;
+    z-index: 2000;
+    -ms-transform: scale(0.7,0.7); 
+    -webkit-transform: scale(0.7,0.7); 
+    transform: scale(0.7,0.7);
+  }
+}*/
+
+@media only screen and (min-width: 523px) and (max-width: 700px) { /* Tatiana Change */
+
+  #pu-wrapper {
+    width: 595px;
+    top: -30px;
+    left: -72px;
+    z-index: 2000;
+    -ms-transform: scale(0.7,0.7); /* IE 9 */
+    -webkit-transform: scale(0.7,0.7); /* Safari */
+    transform: scale(0.7,0.7);
+  }
+}
+
+
+@media only screen and (min-width: 701px) and (max-width: 735px) { /* Tatiana Change */
+
+  #pu-wrapper {
+    width: 595px;
+    top: 71px;
+    left: -52px;
+    -ms-transform: scale(0.7,0.7); /* IE 9 */
+    -webkit-transform: scale(0.7,0.7); /* Safari */
+    transform: scale(0.7,0.7);
+  }
+}
+
+@media only screen and (min-width: 736px) and (max-width: 839px) { /* Tatiana Change */
+
+  #pu-wrapper {
+    top: 80px;
+    left: -80px;
+    -ms-transform: scale(0.7,0.7); /* IE 9 */
+    -webkit-transform: scale(0.7,0.7); /* Safari */
+    transform: scale(0.7,0.7);
+  }
+}
+
+@media only screen and (min-width: 840px) and (max-width: 919px) { /* Tatiana Change */
+
+  #pu-wrapper {
+    top: 80px;
+    left: -11px;
+    -ms-transform: scale(0.7,0.7); /* IE 9 */
+    -webkit-transform: scale(0.7,0.7); /* Safari */
+    transform: scale(0.7,0.7);
+  }
+}
+
+/*@media only screen and (min-width: 920px) and (max-width: 1475px) { /* Tatiana Change */
+
+  /*#pu-wrapper {
+     top: 90px;
+  }
+}*/
+
+/*PopUp 903px - 1199*/
+/* @media only screen and (min-width: 903px) and (max-width: 1199px){ */
+@media only screen and (min-width: 1475px) { /* Tohamas Change */
+
+	#container{
+		height: 1590px;
+	}
+
+	#pu-wrapper {
+	   top: 167px;
+	}
+
+	#missed-game-wrapper {
+    	bottom: 250px;
+	}
+
+  #missedGameRect {
+    width: 80%;
+   height: 369px;
+  }
+}
+
+
+
+/* ----------- Non-Retina Screens ----------- */
+/* @media only screen and (max-width: 1474px) and (max-height: 800px){ */
+
+@media only screen and (max-width: 1474px){ 
+
+  #container{
+    height: 1525px;
+  }   
+
+  body{
+    background-size: 1500px 844px;
+  }
+
+  #ddc-logo {
+    top: 9px;
+    -ms-transform: scale(0.7,0.7); /* IE 9 */
+    -webkit-transform: scale(0.7,0.7); /* Safari */
+    transform: scale(0.7,0.7);
+   }
+
+  #ww-logo {
+    top: 37px;
+    -ms-transform: scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: scale(0.6,0.6); /* Safari */
+    transform: scale(0.6,0.6);
+   }
+
+  
+  .winner_text {
+	   font-size: 25px;
+	    line-height: 20px;
+	   }
+
+ 
+ .infobody_text {
+    font-size: 16px;
+    line-height: 20px;
+ }
+
+  #bodytext p {
+    width: 71%;
+    top: 185px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+
+.comeback_text{
+    font-size: 16px;
+	line-height: 50px;
+
+}
+.subheader_text {
+font-size: 24px;
+line-height: 28px;
+font-weight:800;
+}
+
+  .sBtn{
+    top: 158px;
+    -ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Safari */
+    transform: scale(0.8,0.8);
+  }
+
+  #cloud-gradient{
+    top: -189px;
+  }
+
+  /*#pu-wrapper { // TVS //
+    bottom: 35px;
+  }*/
+
+  #wheel-wrapper {
+    top: -128px;
+    z-index: -1;
+    -ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Safari */
+    transform: scale(0.8,0.8);
+  }
+
+  #missed-game-wrapper {
+    bottom: 250px;
+  }
+
+  #missedGameRect {
+    width: 80%;
+    height: 369px;
+  }
+
+  #t-and-c p {
+    bottom: 63px;
+  }
+  
+}
+
+
+@media only screen and (max-width: 1112px) { /* Tohamas Change */
+
+    #missedGameHead p {
+    font-size: 18px;
+	text-align: center;
+  }
+
+.missedGameSubhead p {
+    width: 95%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  #missedGameRect {
+    width: 80%;
+   height: 475px;
+  }
+}
+
+
+
+
+
+/* Smaller than standard 1064 (devices and browsers) */
+@media only screen and (max-width: 1064px) {
+
+	.sBtn {
+    	top: 149px;
+	   }
+
+  #bodytext p {
+    width: 75%;
+    top: 175px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .comeback_text{
+    font-size: 14px;
+  }
+
+	.subheader_text {
+    font-size: 19px;
+    line-height: 19px;
+    font-weight:800;
+}
+	.infobody_text {
+    font-size: 15px;
+    line-height: 15px;
+	
+	}
+
+  .winner_text {
+	   font-size: 20px;
+	 }
+	 
+  #ww-logo {
+    top: 27px;
+    -ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5);
+   }
+
+}
+
+
+
+/* wheel floats right (devices and browsers) */
+@media only screen and (max-width: 700px) { /* Tohamas  */
+
+  .mobileTandC {
+  	text-align: center;
+  	line-height: 25px;
+  }
+
+  .mobileTandC a {
+  	font-size: 12px;
+  	color: #ffffff;
+  	line-height: 25px;
+  }
+
+  .mobileTandC a:hover, a:focus {
+  	font-size: 12px;
+  	color: #ffffa5;
+  	line-height: 25px;
+  }
+
+  .winner_text {
+  	font-size: 16px;   
+  }
+
+  #container{
+    height: 1200px;
+   /*  overflow-y: scroll;  */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #header-wrapper {
+    height: 40px
+  }
+
+  body{
+    background-size: 1285px 756px;
+    background-position-y: -13px;
+    background-position-x: -161px;
+  }
+  
+  #header-rectangle {
+    height: 29px;
+  }
+
+  #header-frame {
+    top: 24px;
+  }
+
+  #ddc-logo {
+    top: -11px;
+    /*left: -286px; //tvs */
+    width: 118px;
+    height: 78px;
+    background: url(../images/DD_logo_sml.png) no-repeat;
+    position: fixed;
+    -ms-transform: scale(0.7,0.7);
+    -webkit-transform: scale(0.7,0.7);
+    -moz-transform: scale(0.7,0.7);
+    -o-transform: scale(0.7,0.7);
+    transform: scale(0.7,0.7);
+  }
+
+  #ww-logo{
+    top: 1px;
+    right: 81px;
+  	width: 400px;
+ }
+
+  #text-wrapper {
+    width: 76%;
+    /* left: -5px; */
+    top: 7px;
+	
+  }
+
+  .winner_text {
+	  font-size: 16px;  
+  }
+	
+  .subheader_text {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight:800;
+  }
+
+  #bodytext p {
+    top: 65px;
+    font-size: 16px;
+    line-height: 20px;
+	  position: relative;
+  }
+
+  .infobody_text {
+	    display: none;
+  }
+  
+  .infobody_text_mobile {
+	   display: block;
+	   font-size: 13px;
+     line-height: 15px;
+  }
+
+  .comeback_text{
+    font-size: 12px;
+	  line-height: 15px;
+  }
+
+  .sBtn {
+    top: 50px;
+    -ms-transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    -moz-transform: scale(0.8,0.8);
+    -o-transform: scale(0.8,0.8);
+    transform: scale(0.8,0.8);
+  }
+
+  #cloud-gradient{
+    top: -98px;
+    height: 755px;
+    z-index: -1;
+  }
+
+  #cloud-gradient-rule {
+    top: 432px;
+    visibility: hidden;
+  }
+
+  .wheel {
+    background-image: url(../images/mWheel/horz/wheel_wedges.png);
+  }
+
+  #wheel-wrapper {
+    top: -234px;
+    right: -340px;
+    left: auto;
+  	position: absolute;
+  	z-index: -1;
+  	width: auto;
+    -ms-transform: rotate(90deg) scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: rotate(90deg) scale(0.6,0.6); /* Safari */
+    -moz-transform: rotate(90deg) scale(0.6,0.6);
+    -o-transform: rotate(90deg) scale(0.6,0.6);
+    transform: rotate(90deg) scale(0.6,0.6);
+  }
+
+  .marker {
+    width: 102px;
+    height: 82px;
+    top: 461px;
+    left: 196px;
+  }
+
+  #footer-rectangle {
+    height: 21px;
+ 
+  }
+  #t-and-c p{
+  	width: 90%;
+  	bottom: 75px;
+  	font-size: 10px;
+  	line-height: 10px;
+  	margin: 0 auto;
+  	text-align: center;
+  	z-index: 1000;
+  	color:#ffffff;
+  }
+
+  #t-and-c {
+	  width: 100%;
+    bottom: 5px;
+    position: absolute;
+  }
+
+  #t-and-c p {
+    width: 90%;
+    z-index: 100;
+    position: relative;
+    -webkit-text-size-adjust: 100%
+  }
+  
+  #disclaimer p {
+    bottom: -1px;
+    font-size: 7px;
+    line-height: 9px;
+    left: -84px;
+  }
+
+  #missed-game-wrapper {
+    top: 500px;
+  }
+
+  #missedGameRect {
+    width: 93%;
+    height: 478px;
+  }
+
+  #missedGameHead p {
+    font-size: 20px;
+  }
+
+  .missedGameSubhead p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  div#icon-wrapper {
+    padding: 30px 0px;
+  }
+
+  .closeBtn {
+    top: 20px;
+    left: 293px;
+  }
+
+  .pBtn {
+    top: 337px;
+    left: 145px;
+  }
+
+  .prevGame {
+    top: 412px;
+    left: 331px;
+  }
+
+  .prevGame a {
+    font-size: 14px;
+  }
+
+  .anchor {
+    display: block;
+    visibility: hidden;
+  }
+
+  /*#pu-wrapper {
+    width: 595px;
+    top: -76px;
+    position: relative;
+    z-index: 2000;
+    -ms-transform: scale(0.85,0.85); 
+    -webkit-transform: scale(0.85,0.85);
+    -moz-transform: scale(0.85,0.85);
+    -o-transform: scale(0.85,0.85); 
+    transform: scale(0.85,0.85);
+  }*/
+
+  #popupContainer {
+    width: 100%;
+    top: -25px;
+  }
+
+  #pu1{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu1.png);
+  }
+
+  #pu2{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu2.png);
+  }
+
+  #pu3{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu3.png);
+  }
+
+  #pu4{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu4.png);
+  }
+
+  #pu5{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu5.png);
+  }
+
+  #pu6{
+    width: 595px;
+    height: 293px;
+    background-image: url(../images/popups/mobile/horz/pu6.png);
+  }
+
+  #blue {
+    background-image: url(../images/mWheel/horz/blueWoFTD.png);
+  
+  }
+
+  #cyan{
+    background-image: url(../images/mWheel/horz/cyanDDC.png);
+  }
+
+  #green{
+    background-image: url(../images/mWheel/horz/greenWoF345.png);
+  }
+
+  #orange{
+    background-image: url(../images/mWheel/horz/orangeWoFU5.png);
+  }
+
+  #pink{
+    background-image: url(../images/mWheel/horz/pinkDDC.png);
+  }
+
+  #purple{
+    background-image: url(../images/mWheel/horz/purpleDDC.png);
+  }
+
+  #red{
+    background-image: url(../images/mWheel/horz/redWoFES.png);
+  }
+
+  #yellow{
+    background-image: url(../images/mWheel/horz/yellowWoFDD.png);
+  }
+
+}
+
+
+
+/* wheel floats right (devices and browsers) */
+@media only screen and (max-width: 540px) { /* Tatiana  */
+
+.mobileTandC {
+	text-align: center;
+	line-height: 25px;
+}
+
+.mobileTandC a {
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 25px;
+}
+
+.mobileTandC a:hover, a:focus {
+	font-size: 12px;
+	color: #ffffa5;
+	line-height: 25px;
+}
+
+    .winner_text {
+	     font-size: 16px;
+	   
+  }
+
+  #ww-logo{
+    top: 1px;
+    right: 67px;
+	width: 400px;
+ }
+
+  #subText p {
+    top: 56px;
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .infobody_text_mobile {
+	   display: block;
+	   font-size: 13px;
+    line-height: 15px;
+  }
+  
+
+
+.comeback_text{
+    font-size: 12px;
+	line-height: 15px;
+
+}
+
+
+
+  .sBtn{
+    top:  48px;
+  }
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 553px) { /* Tohamas Change */
+
+  #container{
+    height: 1625px;
+  }   
+  #missedGameRect {
+    width: 80%;
+   height: 620px;
+  }
+}
+
+
+
+
+
+/* All Mobile Sizes (devices and browser) */
+
+@media only screen and (max-width: 522px) { /* Tohamas Change */
+/* @media only screen and (min-width: 320px) and (max-width: 539px) { */
+
+  #bodytext p {
+    top: 92px;
+  }
+  
+.mobileTandC {
+	text-align: center;
+	line-height: 25px;
+}
+
+.mobileTandC a {
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 25px;
+}
+
+.mobileTandC a:hover, a:focus {
+	font-size: 12px;
+	color: #ffffa5;
+	line-height: 25px;
+}
+
+  #container {
+    height: 1527px;
+  }
+  #text-wrapper{
+	top: 0px;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 100;
+	left: 0px;
+	position: absolute;
+}
+  
+
+  #header-wrapper {
+    height: 45px
+  }
+
+  body{
+    background-size: 864px 486px;
+  }
+  
+  #header-rectangle {
+    height: 30px;
+  }
+
+  #header-frame {
+    top: 28px;
+  }
+ 
+
+  #ddc-logo {
+    top: -7px;
+	left: 0px;
+    width: 118px;
+    height: 78px;
+    background: url(../images/DD_logo_sml.png) no-repeat;
+    -ms-transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    transform: scale(0.8,0.8);
+
+  }
+
+#ww-logo {
+right: 0px;
+	top: 10px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+
+}
+  
+
+  #ww-logo{
+
+	
+	-ms-transform: scale(0.6,0.6); /* Tohamas Change */
+    -webkit-transform: scale(0.6,0.6); /* Tohamas Change */
+    transform: scale(0.6,0.6); /* Tohamas Change */
+  }
+  
+  
+
+    .winner_text {
+	     font-size: 16px;
+	   
+}
+
+  #subText p {
+   /* top: 71px; */
+	top: 85px; /* Tohamas Change */
+    font-size: 16px;
+  }
+ 
+ .infobody_text {
+    display: none;
+ }  
+
+
+  .infobody_text_mobile {
+	   display: block;
+	   font-size: 13px;
+	   line-height: 15px;
+  }
+
+
+  
+
+
+
+.comeback_text{
+    font-size: 12px;
+	line-height: 17px;
+
+}
+
+  .sBtn {
+    top:  80px;
+    -ms-transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    transform: scale(0.8,0.8);
+  }
+  
+  #cloud-gradient{
+    top: 45px;
+    height: 263px;
+  }
+
+  #cloud-gradient-rule {
+    top: 260px;
+    visibility: visible;
+  }
+
+  .wheel {
+    background-image: url(../images/mWheel/vert/wheel_wedges.png);
+  }
+
+   .blackBox {
+    visibility: visible;
+    width: 200%;
+  }
+  
+    #wheel-wrapper {
+    top: 197px;
+    right: auto;
+    left: 10px;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+    -ms-transform: rotate(180deg) scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: rotate(180deg) scale(0.6,0.6); /* Safari */
+    transform: rotate(180deg) scale(0.6,0.6);
+  }
+
+  
+  .marker {
+    width: 102px;
+    height: 82px;
+    top: 461px;
+    left: 196px;
+  }
+
+  #footer-rectangle {
+    height: 42px;
+    opacity: .85;
+  }
+
+  #t-and-c {
+    bottom: -5px;
+    z-index: 100;
+    position: absolute;
+  }
+
+  #t-and-c p {
+    width: 93%;
+    position: relative;
+  }
+
+  #disclaimer p {
+    bottom: -9px;
+    font-size: 9px;
+    line-height: 12px;
+    left: 0px;
+  }
+
+
+  #missed-game-wrapper {
+    top: 620px;
+  }
+
+  #missedGameRect {
+    width: 92%;
+    height: 656px;
+  }
+
+  #missedGameHead p {
+    font-size: 21px;
+  }
+
+  .missedGameSubhead p {
+    width: 95%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  div#icon-wrapper {
+    padding: 30px 0px;
+  }
+
+ .closeBtn {
+    top: 28px;
+    left: 135px;
+  }
+
+  .pBtn {
+    top: 538px;
+    left: 0px;
+  }
+
+  .prevGame {
+    top: 615px;
+    left: 41px;
+  }
+
+  .prevGame a {
+    font-size: 14px;
+  }
+
+  .anchor{
+    display: block;
+    visibility: hidden;
+  }
+/*
+  #popupContainer {
+    width: 100%;
+  }
+
+*/
+  #pu-wrapper {
+    width: 295px;
+    top: -114px;
+    left: 2px;
+    /*top: -80px; //tvs 1.23.06
+    left: 14px;*/
+    z-index: 2000;
+    position: relative;
+    -ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Safari */
+    transform: scale(0.9,0.9);
+  }
+
+  #pu1{
+    width: 295px;
+    height: 500px;
+    background-image: url(../images/popups/mobile/vert/pu1.png);
+  }
+
+  #pu2{
+    width: 295px;
+    height: 500px;
+    background-image: url(../images/popups/mobile/vert/pu2.png);
+  }
+
+  #pu3{
+    width: 295px;
+    height: 500px;
+    background-image: url(../images/popups/mobile/vert/pu3.png);
+  }
+
+  #pu4{
+    width: 295px;
+    height: 500px;
+    background-image: url(../images/popups/mobile/vert/pu4.png);
+  }
+
+  #pu5{
+    width: 295px;
+    height: 500px;
+    background-image: url(../images/popups/mobile/vert/pu5.png);
+  } 
+
+  #pu6{
+    width: 295px;
+    height: 500px;
+    background-image: url(../images/popups/mobile/vert/pu6.png);
+  }
+
+
+  #blue {
+    background-image: url(../images/mWheel/vert/blueWoFTD.png);
+  
+  }
+
+  #cyan{
+    background-image: url(../images/mWheel/vert/cyanDDC.png);
+  }
+
+  #green{
+    background-image: url(../images/mWheel/vert/greenWoF345.png);
+  }
+
+  #orange{
+    background-image: url(../images/mWheel/vert/orangeWoFU5.png);
+  }
+
+  #pink{
+    background-image: url(../images/mWheel/vert/pinkDDC.png);
+  }
+
+  #purple{
+    background-image: url(../images/mWheel/vert/purpleDDC.png);
+  }
+
+  #red{
+    background-image: url(../images/mWheel/vert/redWoFES.png);
+  }
+
+  #yellow{
+    background-image: url(../images/mWheel/vert/yellowWoFDD.png);
+  }
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+
+
+@media only screen and (max-width: 471px) { /* Tohamas Change */
+
+  #bodytext p {
+    top: 90px;
+	width: 90%;
+  }
+    .winner_text {
+	     font-size: 16px;
+	   
+}
+
+  #subText p {
+   /* top: 71px; */
+	top: 74px; /* Tohamas Change */
+    font-size: 12px;
+  }
+
+
+  .infobody_text_mobile {
+	   display: block;
+	   font-size: 13px;
+	   line-height: 15px;
+  }
+
+#ww-logo {
+	top: 17px;
+
+
+}
+
+
+.comeback_text{
+    font-size: 12px;
+	line-height: 17px;
+
+}
+
+	.sBtn {
+    	top: 67px;
+	}
+  
+
+
+}
+
+
+@media only screen and (max-width: 400px) { /* Tohamas Change */
+  #wheel-wrapper {
+    top: 197px;
+    left: 50px;
+    z-index: -1;
+    -ms-transform: rotate(180deg) scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: rotate(180deg) scale(0.6,0.6); /* Safari */
+    transform: rotate(180deg) scale(0.6,0.6);
+  }
+
+#ww-logo {
+	top: 28px;
+
+
+}
+  
+    }
+
+
+
+
+
+

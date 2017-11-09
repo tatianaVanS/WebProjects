@@ -1,0 +1,430 @@
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+  #container{
+    height: 1627px
+  }
+
+  #header-wrapper {
+    height: 80px
+  }
+
+  body{
+    background-size: 1156px 578px;
+  }
+  
+  #header-rectangle {
+    height: 38px;
+  }
+
+  #header-frame {
+    top: 35px;
+  }
+
+  #ddc-logo {
+    top: 0px;
+    width: 118px;
+    height: 78px;
+    background: url(../images/DD_logo_sml.png) no-repeat;
+
+  }
+
+  #ww-logo{
+    top: 53px;
+    -ms-transform: scale(.9,.9);
+    -webkit-transform: scale(.9,.9);
+    -moz-transform: scale(.9,.9);
+    -o-transform: scale(.9,.9);
+    transform: scale(.9,.9);
+  }
+
+  /*#titleText h1 {
+    top: 116px;
+    font-size: 20px;
+  }
+
+  #subText p {
+    top: 103px;
+    font-size: 18px;
+  }
+
+  #bodyCopy p {
+    visibility: hidden;
+  }
+
+  #bodyCopyMobile p {
+    visibility: visible;
+    top: -68px;
+    width: 86%;
+  }
+
+  #subText2 p {
+    top: -33px;
+    font-size: 18px;
+    line-height: 21px;
+    width: 90%;
+  }
+
+  #mobileTandC {
+    top: 259px;
+  }*/
+
+  #bodytext p {
+    top: 150px;
+  }
+
+  .sBtn{
+    top:  152px;
+    -ms-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+  }
+  
+  #cloud-gradient{
+    top: -70px;
+    height: 435px;
+  }
+
+  #cloud-gradient-rule {
+    top: 432px;
+  }
+
+  .blackBox {
+    visibility: visible;
+  }
+
+  .wheel {
+    background-image: url(../images/mWheel/vert/wheel_wedges.png);
+  }
+
+  #wheel-wrapper {
+    top: 390px;
+    z-index: 1;
+    -ms-transform: rotate(180deg) scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: rotate(180deg) scale(0.9,0.9);/* Safari */
+    -moz-transform: rotate(180deg) scale(0.9,0.9);
+    -o-transform: rotate(180deg) scale(0.9,0.9); 
+    transform: rotate(180deg) scale(0.9,0.9);
+  }
+
+  .marker {
+    width: 102px;
+    height: 82px;
+    top: 461px;
+    left: 196px;
+  }
+
+  #footer-rectangle {
+    height: 42px;
+    opacity: .85;
+  }
+
+  #t-and-c p {
+    width: 90%;
+    font-size: 12px;
+    line-height: 14px;
+    z-index: 100;
+    position: relative;
+  }
+
+  #disclaimer p {
+    bottom: -9px;
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  #missed-game-wrapper {
+    top: 708px;
+  }
+
+  #missedGameContainer {
+    position: relative;
+  }
+
+  #missedGameRect {
+    width: 90%;
+    height: 660px;
+  }
+
+  #missedGameHead p {
+    font-size: 21px;
+  }
+
+  .missedGameSubhead p {
+    width: 95%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  div#icon-wrapper {
+    padding: 30px 0px;
+  }
+
+  .closeBtn {
+    top: 30px;
+    left: 133px;
+  }
+
+  .pBtn {
+    top: 536px;
+    left: 0px;
+  }
+
+  .prevGame {
+    top: 613px;
+    left: 41px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .anchor{
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+    visibility: hidden;
+  }
+
+  #pu-wrapper {
+    width: 295px;
+    left: 0px;
+    top: -72px;
+    -ms-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+
+  }
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-height: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+  #container{
+    height: 1458px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+/*  #ddc-logo {
+    left: -283px;
+  }*/
+
+  #ww-logo{
+    top: 23px;
+    right: 111px;
+    -ms-transform: scale(0.75,0.75);
+    -webkit-transform: scale(0.75,0.75);
+    -moz-transform: scale(0.75,0.75);
+    -o-transform: scale(0.75,0.75);
+    transform: scale(0.75,0.75);
+  }
+
+  #text-wrapper {
+    width: 68%;
+  }
+
+  /*#titleText h1 {
+    top: 108px;
+    font-size: 22px;
+  }
+
+  #subText p {
+    top: 95px;
+    font-size: 16px;
+  }
+
+  #bodyCopyMobile p {
+    top: -20px;
+    font-size: 13px;
+    line-height: 15px;
+    width: 80%;
+  }
+
+  #mobileTandC {
+    top: 229px;
+    left: -110px;
+  }
+
+  #subText2 p {
+    top: 73px;
+    font-size: 15px;
+    line-height: 16px;;
+    width: 73%;
+  }*/
+
+  #bodytext p {
+    top: 97px;
+  }
+
+  .sBtn {
+    top: 90px;
+    -ms-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+  }
+
+  #wheel-wrapper {
+    top: -228px;
+    left: 569px;
+    -ms-transform: rotate(90deg) scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: rotate(90deg) scale(0.8,0.8); /* Safari */
+    -moz-transform: rotate(90deg) scale(0.8,0.8);
+    -o-transform: rotate(90deg) scale(0.8,0.8);
+    transform: rotate(90deg) scale(0.8,0.8);
+  }
+
+  #t-and-c p {
+    width: 100%;
+    bottom: 38px;
+  }
+
+  #disclaimer p {
+    left: -106px;
+  }
+
+  #pu-wrapper {
+    width: 595px;
+    top: -86px;
+    left: 10px;
+    -ms-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+  }
+
+  #missed-game-wrapper {
+    top: 620px;
+  }
+
+  #missedGameRect{
+    height: 465px;
+  }
+
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+  #container {
+    height: 1800px;
+  }
+
+  #header-wrapper {
+    height: 55px;
+  }
+  
+  #ww-logo {
+    top: 80px;
+    -ms-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+    
+  }
+
+  /*#titleText h1 {
+      top: 135px;
+      font-size: 25px;
+  }
+
+  #subText p {
+    top: 132px;
+  }
+
+  #bodyCopyMobile p {
+    top: 56px;
+  }
+  
+  #mobileTandC {
+    top: 285px;
+  }
+  
+  #subText2 p {
+    top: 86px;
+  }*/
+
+  #bodytext p {
+    top: 193px;
+  }
+
+  .sBtn {
+    top: 202px;
+  }
+  
+  #cloud-gradient {
+    top: -37px;
+  }
+
+  #wheel-wrapper {
+    top: 480px;
+    left: 38px;
+  }
+
+  #pu-wrapper {
+    top: -10px;
+    left: 0px;
+    z-index: 800;
+  }
+
+  #missed-game-wrapper {
+    top: 857px;
+  }
+
+  .anchor {
+    height: 55px;
+    margin-top: -55px;
+  }
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+  #container{
+    height: 1458px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #ddc-logo {
+    left: -310px;
+  }
+
+  }
+
+}
+
+

@@ -1,0 +1,112 @@
+/* Custom Video Player CSS ========================================================
+====================================================================*/
+#video-wrapper {
+    padding-bottom: 20px;
+}
+
+#video-container {
+    max-width: 740px;
+    position: relative;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #F7C737;
+}
+
+#video-title {
+    margin: 0 auto;
+}
+
+#video-title-bar{
+    background-color: #000;
+    height: auto;
+    position: relative;
+}
+
+#video-header {
+	font-size: 18px;
+    font-size: 5.6vmin;
+	margin: 3px auto 3px auto;
+}
+
+#video-subtitle {
+	font-size: 12px;
+    font-size: 3.6vmin;
+	margin-top: 2px;
+}
+
+
+/* Media Queries =====================================================
+====================================================================*/
+@media screen and (orientation: portrait){
+    #video-container {
+        width: 95%;
+    }
+}
+
+@media screen and (orientation: landscape){
+    #video-container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 640px){
+    #video-container {
+        width: 68%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #video-container {
+        width: 78%;
+    }
+
+    #video-header {
+        font-size: 33px;
+        font-size: 4.6vmin;
+    }
+
+    #video-subtitle {
+        font-size: 20px;
+        font-size: 2.6vmin;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #video-container {
+        width: 58%;
+    }
+
+    #video-header {
+        font-size: 28px;
+        font-size: 3.6vmin;
+    }
+
+    #video-subtitle {
+        font-size: 17px;
+        font-size: 2.2vmin;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #video-wrapper {
+        padding-bottom: 0;
+    }
+    #video-container{
+        width: 100%;
+    }
+
+    #video-header {
+        font-size: 24px;
+        font-size: 1.8vmax;
+        margin: 0 auto;
+    }
+
+    #video-subtitle {
+        font-size: 16px;
+        font-size: 1.2vmax;
+        margin: 0 auto;
+        padding-bottom: 3px;
+    }
+}

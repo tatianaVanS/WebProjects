@@ -1,0 +1,112 @@
+/* Custom CSS ========================================================
+====================================================================*/
+#carousel-container {
+	width: 100%;
+	max-width: 740px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 95px;
+}
+
+.carousel-inner {
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+
+
+
+
+
+
+/* Media Queries =====================================================
+====================================================================*/
+@media only screen and (orientation: portrait){
+	.carousel {
+		padding-left: 7px;
+		padding-right: 7px;
+		padding-bottom: 10px;
+	}
+
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	    right: 75%;
+	    margin-right: -10px;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	    left: 75%;
+	    margin-left: -10px;
+	}
+
+}
+
+@media only screen and (orientation: landscape){
+	#carousel-container {
+		padding-top: 130px;
+	}
+
+	.carousel {
+	    padding-left: 70px;
+	    padding-right: 70px;
+	    padding-bottom: 10px;
+	}
+
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	    right: 60%;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	    left: 60%;
+	}
+}
+
+@media screen and (min-width: 640px) and (orientation: landscape){
+    #carousel-container {
+        padding-top: 190px;
+    }
+
+    .carousel {
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+}
+
+@media screen and (min-width: 768px){
+	#carousel-container {
+	    padding-top: 220px;
+	}
+
+	.carousel {
+	    padding-left: 80px;
+	    padding-right: 80px;
+	}
+
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	    right: 45%;
+	}
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	    left: 45%;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	#carousel-container {
+	    padding-top: 290px;
+	}
+}
+
+@media (min-width: 1200px){
+	#carousel-container {
+	    padding-top: 0px;
+	    padding-bottom: 10px;
+	}
+
+	.carousel {
+	    padding-left: 3px;
+	    padding-right: 3px;
+	}	
+}

@@ -1,21 +1,18 @@
-$( document ).ready(function() {  //$(function(){ < shorthand version
+$( document ).ready(function() { 
 
     //checks to see where the user came to the wheel week site from (e.g. PAID, EMAIL, FB WALL)
     if(document.referrer.indexOf("www") > 0){
-        console.log( "Url Media CID" );
+        //console.log( "Url Media CID" );
         var cid = "8647";
         var pid = "LHHXXR";
  
         } else if(document.referrer.indexOf("facebook" || "bit.ly") > 0){
-        console.log( "Url Facebook CID" );
+        //console.log( "Url Facebook CID" );
         var cid = "8646";
         var pid = "DFZFNF";
-
-        /*} else if(document.url.indexOf("wheelweek") > 0){
-            alert("doubledowninteractive");*/
          
         }else{
-        console.log( "Url Email CID" );
+        //console.log( "Url Email CID" );
         var cid = "8645";
         var pid = "PPRWRR";
     }
@@ -51,8 +48,8 @@ $( document ).ready(function() {  //$(function(){ < shorthand version
     var day5Game = urlBegin + tda + cid + urlMid + tdb + cid;
     var day6Game = "http://m.doubledowncasino.com/?link=SLOTSLOBBY.pid-" + pid + ".cid-" + cid +"&lobby=slots&pid=" + pid + "&cid=" + cid;
 
-    console.log(day6Game);
-    console.log(pid);
+    //console.log(day6Game);
+    //console.log(pid);
 
     //BUTTONS
     $(".sBtn").click(function(e){
@@ -63,14 +60,7 @@ $( document ).ready(function() {  //$(function(){ < shorthand version
     $(".closeBtn").click(function(e){
         //alert('X btn working');
         $('#pu-wrapper').transition({ opacity: 0, visibility: 'hidden' });
-        //$('#missedGameRect').transition({ opacity: 0, visibility: 'hidden' });
     });
-
-    /*$(".anchor").click(function(e){
-        //alert('X btn working');
-        $('#pu-wrapper').transition({ opacity: 0, visibility: 'hidden' });
-        //$('#missedGameRect').transition({ opacity: 0, visibility: 'hidden' });
-    });*/
 
     //play now button
     $(".pBtn").click(function(e){
@@ -161,18 +151,12 @@ $( document ).ready(function() {  //$(function(){ < shorthand version
     });
 
 
-    /*$('.hover').bind('touchstart touchend', function(e) {
-        e.preventDefault();
-        $(this).toggleClass('hover_effect');
-    });*/
-
         window.WHEELOFFORTUNE = {
 
             cache: {},
 
             init: function () {
-                console.log('controller init...');
-
+                //console.log('controller init...');
                 var _this = this;
                 this.cache.wheel = $('.wheel');
                 this.cache.wheelMarker = $('.marker');
@@ -212,10 +196,6 @@ $( document ).ready(function() {  //$(function(){ < shorthand version
                 this.cache.day6Color = $('.day6Color');
                 this.cache.prevGame = $('.prevGame')
                 //alert(this.cache.wheelSpinBtn)
-
-                //mapping is backwards as wheel spins clockwise //1=win
-                //this.cache.wheelMapping = [400, 120, 80, 750, 150, 300, 60, 175, 500, 125, 75, 1000, 120, 200, 90, 600, 100, 250].reverse();
-                //this.cache.wheelGame = ['Ultra 5', 'Extra Spin', 'Double Diamond','3x4x5','Triple Diamond', 'DDC'];
                 
 
                 this.cache.wheelSpinBtn.on('click', function (e) {
@@ -232,14 +212,14 @@ $( document ).ready(function() {  //$(function(){ < shorthand version
             },
 
             spin: function () {
-                console.log('spinning wheel');
-
+                //console.log('spinning wheel');
+		//console.log('today = ' + today);
                 var _this = this;
                 var today = new Date();
                 var gameDay = today.getDate();
                 var duration = 7000; //optimal 6 secs
                 var wedgeAngle = 45;
-                console.log('today = ' + today);
+                
                 
                 // reset wheel
                 this.resetSpin();
@@ -250,12 +230,7 @@ $( document ).ready(function() {  //$(function(){ < shorthand version
                 //disable spin button while in progress
                 this.cache.wheelSpinBtn.addClass('disabled');
 
-                /*
-                    Wheel has 12 sections.
-                    Each section is 360/12 = 30deg.
-                */
-
-                if (gameDay == 00){
+                if (gameDay == 00){ //gameday set to '00' to show Day 5 of promotion, normally this would be a real calendar date.
                     var deg = (360*8) + (wedgeAngle*2);
                     this.showPopUp();
                     this.cache.orange.transition({opacity:1});
@@ -386,19 +361,12 @@ $( document ).ready(function() {  //$(function(){ < shorthand version
                     var spin = _this.cache.wheelPos,
                         degrees = spin % 360,
                         percent = (degrees / 360) * 100;
-                        //segment = _this.cache.wheelGame; 
-                        //win = _this.cache.wheelGame[segment + deg]; //zero based array
 
-                    console.log('spin = ' + spin);
-                    console.log('degrees = ' + degrees);
-                    console.log('percent = ' + percent);
+                    //console.log('spin = ' + spin);
+                    //console.log('degrees = ' + degrees);
+                    //console.log('percent = ' + percent);
                     //console.log('segment = ' + segment);
                     //console.log('win = ' + win);
-
-                    //display dialog with slight delay to realise win or not.
-                    //setTimeout(function () {
-                        //alert('you won '+win+'!');
-                    //}, 700);
 
                     //display animated wedgeWin
                     _this.cache.wedgeWin.transition({opacity: 1});

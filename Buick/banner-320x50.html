@@ -1,0 +1,433 @@
+<htmL>
+<head>
+    <title>Buick Enclave Mobile Banner</title>
+	<style type="text/css">
+		body {
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+			margin: 5em;
+			padding: 0;
+			background-color: #cccccc;
+		}
+		a:link, a:visited, a:hover, a:active {
+			text-decoration: none;
+			border: 0;
+			color: #333;
+		}
+		
+		.iphonecontainer{
+			background-image: url("img/mobileContent.png");
+			width: 383px;
+			height: 734;
+			position: absolute;
+		}
+		.container {
+			width: 318px;
+			height: 48px;
+			margin: 0;
+			border: 1px solid #9e9e9e;
+			overflow: hidden;
+			position: relative;
+			top: 150;
+			left: 33;
+		}
+
+		/* Preroll */
+		.logomagic, .bgmagic {
+			height: 48px;
+			width: 318px;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		/* Intro animation */
+		.logomagic {
+			z-index: 4;
+			opacity: 0;
+			height: 48px;
+			-webkit-animation-duration: 2s;
+			-webkit-animation-name: intro;
+			-moz-animation-duration: 2s;
+			-moz-animation-name: intro;
+			-o-animation-duration: 2s;
+			-o-animation-name: intro;
+			animation-duration: 2s;
+			animation-name: intro;
+			background-color: #f26522;
+		}
+		.logomagic img.logo {
+			position: absolute;
+			top: 14px;
+			left: 64px;
+			width: 40px;
+			height: 40px;
+		}
+		.logomagic img.tag {
+			position: absolute;
+			top: 8px;
+			left: 50px;
+			width: 240px;
+			height: 35px;
+		}
+		
+		/* Animation */
+		@-webkit-keyframes intro {
+			0% {
+				-webkit-transform: scale(3);
+				opacity: 0;
+				top: 0;
+			}
+			15% {
+				
+				-webkit-transform: scale(1);
+				
+				opacity: 1;
+			}
+			100% {
+				opacity: 0;
+			}
+		}
+	
+			@-moz-keyframes intro {
+				0% {
+					-moz-transform: scale(3);
+					opacity: 0;
+					top: 0;
+				}
+				15% {
+
+					-moz-transform: scale(1);
+
+					opacity: 1;
+				}
+				100% {
+					opacity: 0;
+				}
+			}
+			
+				@-o-keyframes intro {
+					0% {
+						transform: scale(3);
+						opacity: 0;
+						top: 0;
+					}
+					15% {
+
+						transform: scale(1);
+
+						opacity: 1;
+					}
+					100% {
+						opacity: 0;
+					}
+				}
+
+					keyframes intro {
+						0% {
+							transform: scale(3);
+							opacity: 0;
+							top: 0;
+						}
+						15% {
+
+							transform: scale(1);
+
+							opacity: 1;
+						}
+						100% {
+							opacity: 0;
+						}
+					}
+		
+		.bgmagic {
+			z-index: 3;
+			opacity: 0;
+			left: 0;
+			-webkit-animation-duration: 4s;
+			-webkit-animation-name: tilt;
+			-moz-animation-duration: 4s;
+			-moz-animation-name: tilt;
+			-o-animation-duration: 4s;
+			-o-animation-name: tilt;
+			animation-duration: 4s;
+			animation-name: tilt;
+		}
+		.bgmagic img {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		@-webkit-keyframes tilt {
+			5% {
+				top: -2;
+				-webkit-animation-timing-function: ease-in;
+				opacity: 1;
+				
+			}
+			40% {
+				top: -25;
+				opacity: 1;
+				
+			}
+			75% {
+				top: -74;
+				opacity: 1;
+				
+			
+				
+			}
+			85% {
+				top:-74;
+				opacity: 1;
+				-webkit-animation-timing-function: ease-out;
+		
+				
+			}
+			
+			100% {
+				top:-74;
+				opacity: 0;
+			
+			}
+		}
+		
+			@-moz-keyframes tilt {
+				5% {
+					top: -2;
+					-moz-animation-timing-function: ease-in;
+					opacity: 1;
+
+				}
+				40% {
+					top: -25;
+					opacity: 1;
+
+				}
+				75% {
+					top: -74;
+					opacity: 1;
+
+
+
+				}
+				85% {
+					top:-74;
+					opacity: 1;
+					-moz-animation-timing-function: ease-out;
+
+
+				}
+
+				100% {
+					top:-74;
+					opacity: 0;
+
+				}
+			}
+		
+					@-o-keyframes tilt {
+						5% {
+							top: -2;
+							animation-timing-function: ease-in;
+							opacity: 1;
+
+						}
+						40% {
+							top: -25;
+							opacity: 1;
+
+						}
+						75% {
+							top: -74;
+							opacity: 1;
+
+
+
+						}
+						85% {
+							top:-74;
+							opacity: 1;
+							animation-timing-function: ease-out;
+
+
+						}
+
+						100% {
+							top:-74;
+							opacity: 0;
+
+						}
+					}
+		
+							keyframes tilt {
+								5% {
+									top: -2;
+									animation-timing-function: ease-in;
+									opacity: 1;
+
+								}
+								40% {
+									top: -25;
+									opacity: 1;
+
+								}
+								75% {
+									top: -74;
+									opacity: 1;
+
+
+
+								}
+								85% {
+									top:-74;
+									opacity: 1;
+									animation-timing-function: ease-out;
+
+
+								}
+
+								100% {
+									top:-74;
+									opacity: 0;
+
+								}
+							}
+	
+		
+		
+		
+		/* Endframe */
+		@-webkit-keyframes fadein {
+			0% {
+				opacity: 0;
+			}
+			
+			95% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			
+			}
+		}
+		
+			@-mmoz-keyframes fadein {
+				0% {
+					opacity: 0;
+				}
+
+				95% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 1;
+
+				}
+			}
+			
+				@-o-keyframes fadein {
+					0% {
+						opacity: 0;
+					}
+
+					95% {
+						opacity: 0;
+					}
+					100% {
+						opacity: 1;
+
+					}
+				}
+				
+					@-webkit-keyframes fadein {
+						0% {
+							opacity: 0;
+						}
+
+						95% {
+							opacity: 0;
+						}
+						100% {
+							opacity: 1;
+
+						}
+					}
+		.endframe {
+			z-index: 1;
+			position: relative;
+			opacity: 1;
+			
+			-webkit-animation-duration: 4s;
+			-webkit-animation-name: fadein;
+			-moz-animation-duration: 4s;
+			-moz-animation-name: fadein;
+			-o-animation-duration: 4s;
+			-o-animation-name: fadein;
+			animation-duration: 4s;
+			animation-name: fadein;
+		}
+
+		.oem {
+			width: 40px;
+			height: 40px;
+			margin: 4px 0 15px 4px;
+			float: left;
+			background: url("img/logo2x.jpg") no-repeat;
+			background-size: 40px 40px;
+		}
+		.promocontainer {
+			width: 230px;
+			height: 40px;
+			float: left;
+			padding: 4px 0 4px 4px;
+		}
+		.offer1 {
+			height: 18px;
+			padding-top: 3px;
+			float: left;
+			font-weight: bold;
+		}
+		.dynamic {
+			height: 20px;
+			float: left;
+		}
+		.cta {
+			width: 26px;
+			height: 48px;
+			float: right;
+			background-image: url("img/cta2x.png");
+			background-size: 26px 48px;
+		}
+		.promotext {
+			color: #f26522;
+		}
+	</style>
+</head>
+<body>
+	<a href="http://buick.com" target="_blank">
+		<div class="iphonecontainer">
+			<img src="img/mobileContent.png">
+			</div>
+		<div class="container">
+			<div class="logomagic">
+				<img src="img/expbuick2x.png" class="tag"/>
+			</div>
+			<div class="bgmagic">
+				<img src="img/enclave.jpg" />
+			</div>
+            <div class="goblind"></div>
+		    <div class="endframe">
+		        <div class="oem"></div>
+	        	<div class="promocontainer">
+	        		<div class="offer1"><span class="promotext">Get a Quote</span> on Enclave</div>
+	        		<div class="dynamic">Insert Dealership Name Here</div>
+	   			</div> 
+		        <div class="cta"></div>	
+		    </div>
+            
+		</div>
+	</a>
+</body>
+</html>

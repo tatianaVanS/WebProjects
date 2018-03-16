@@ -1,0 +1,167 @@
+/*
+Code Project for The North Face - March 16, 2018
+Author: Tatiana Van Steinburg
+*/
+
+
+/*-------------------------------------------------------*/
+/* Layout greater than 640px */
+/*-------------------------------------------------------*/
+@media(min-width:640px) {
+  .content-wrapper {
+    position: absolute;
+    width: 50%;
+    top: 22px;
+    right: 35px;
+    text-align: right;
+  }
+  .page-title {
+    font-size: 30px;
+  }
+  .collection-title {
+    color: white;
+    font-size: 35px;
+  }
+  .cspot p {
+    color: white;
+    padding: 0 0 0 45px;
+    font-size: 12px;
+  }
+  .hero-button {
+    width: 75%;
+    font-size: 16px;
+    float: right;
+    margin-top: 12px;
+  }
+  .col-button {
+    font-size: 14px;
+  }
+  .outdoor-button {
+    width: 75%;
+    font-size: 20px;
+  }
+  .padding-bottom {
+    padding-bottom: 50px;
+  }
+  .single-outdoor-title {
+    font-size: 20px;
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* Layout greater than 768px */
+/*-------------------------------------------------------*/
+@media (min-width: 768px) {
+.container {
+    width: 100%;
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* Layout greater than 992px */
+/*-------------------------------------------------------*/
+@media(min-width:992px) {
+.content-wrapper {
+  right: 45px;
+}
+.collection-title {
+    font-size: 53px;
+}
+.cspot p {
+    font-size: 16px;
+  }
+.single-outdoor-content {
+    padding: 15px 28px;
+  }
+.desktop-container {
+  padding: 15px 75px;
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* Layout greater than 1280px */
+/*-------------------------------------------------------*/
+@media(min-width:1280px) {
+p {
+  font-size: 1.2em;
+}
+.content-wrapper {
+  right: 45px;
+}
+.collection-title {
+    font-size: 65px;
+}
+.cspot p {
+  font-size: 18px;
+  width: 73%;
+  float: right;
+}
+.hero-button {
+  width: 60%;
+  font-size: 16px;
+  float: right;
+  margin-top: 40px;
+}
+.desktop-container {
+  padding: 15px 160px;
+  }
+}
+
+
+/*-------------------------------------------------------*/
+/* Layout greater than 1440px */
+/*-------------------------------------------------------*/
+@media(min-width:1440px) {
+.content-wrapper {
+  top: 122px;
+  right: 55px;
+}
+.collection-title {
+    font-size: 70px;
+}
+.cspot p {
+  font-size: 20px;
+}
+.desktop-container {
+  padding: 15px 160px;
+  }
+}
+
+/*-------------------------------------------------------*/
+/* Layout greater than 2296px */
+/*-------------------------------------------------------*/
+@media(min-width:2296px) {
+p {
+    font-size: 2.2em;
+}
+.container {
+  width: 75%;
+}
+.content-wrapper {
+  right: 90px;
+}
+.collection-title {
+  font-size: 95px;
+}
+.cspot p {
+  font-size: 28px;
+}
+.hero-button {
+  font-size: 25px;
+}
+.col-button {
+  font-size: 25px;
+}
+.single-outdoor-title {
+  font-size: 30px;
+}
+.desktop-container {
+  padding: 15px 160px;
+  }
+}
+
+
+

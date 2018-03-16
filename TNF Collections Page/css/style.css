@@ -1,0 +1,301 @@
+/*
+Code Project for The North Face - March 16, 2018
+Author: Tatiana Van Steinburg
+*/
+
+
+/*-------------------------------------------------------
+  Default css
+---------------------------------------------------------*/
+body {
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+}
+.img{
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+a:focus,
+a:hover,{
+  color: #ccc;
+  text-decoration: none;
+}
+a,
+button {
+  outline: medium none;
+  color: #222;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  color: #222;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a { 
+    color: inherit;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+p {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 1.53846em;
+  text-rendering: optimizeLegibility;
+}
+hr{
+  border: solid #2a2a2a;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.53846em 0 1.46154em;
+  height: 0;
+}
+
+*::-moz-selection {
+  background: #999;
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: #999;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #999;
+  color: #fff;
+  text-shadow: none;
+}
+*::-moz-placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+*::placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+.padding-bottom{
+	padding-bottom: 25px;
+}
+.section-padding{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.img-responsive {
+  margin: 0 auto;
+}
+.section-divider {
+  border-color: #c2c2c2;
+  padding-bottom: 25px;
+}
+.pg-title-bg {
+  background-color: rgba(0,0,0,.075);
+}
+/*-------------------------------------
+  Buttons
+---------------------------------------*/
+.button {
+    display: block;
+    background: white;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 3.8vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.3em auto;
+    text-transform: uppercase;
+    padding-top: .77778em;
+    padding-right: 1.55556em;
+    padding-bottom: .8547em;
+    padding-left: 1.55556em;
+    text-rendering: optimizeLegibility;
+}
+.button:hover {
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+.hero-button {
+    color: #e44059;
+    border: 1px solid #e44059;
+}
+
+/*-------------------------------------
+  Hero image set
+---------------------------------------*/
+.hero-img{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*----------------------------------------
+  Section style
+-----------------------------------------*/
+.page-title {
+	font-size: 5vw;
+	letter-spacing: .14em;
+	line-height: 1.2;
+	text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  padding: 15px 0;
+  margin-bottom: 0;
+}
+
+.collection-title {
+  font-weight: 700;
+  color: black;
+  font-size: 8vw;
+  letter-spacing: .05em;
+  line-height: .9;
+  margin: .5em 0 .3em 0;
+  text-rendering: optimizeLegibility;
+}
+
+.cspot p {
+  padding: 0 2vw;
+  margin: 0;
+  font-size: .85em;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+ /* -----------------------------------------
+  Collection style
+-------------------------------------------- */
+.single-collection{
+	position: relative;
+  background-color: black;
+}
+.col-image{
+  padding-left: 0;
+  padding-right: 0;
+}
+.single-collection .col-image img{
+  max-width: 640px;
+}
+.col-name{
+	position: absolute;
+	left: 130px;
+	padding: 30px 0;
+}
+.col-name .subtitle{
+	font-size: 20px;
+	font-weight: 600;
+}
+.single-collection p.comp{
+	font-style: italic;
+	color: #ffa500;
+	font-size: 14px;
+  line-height: 24px;
+}
+.col-content{
+	padding: 5px;	
+}
+.col-button {
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+.col-button:hover {
+    background: white;
+    color: black;
+}
+.single-collection p{
+	color: #222;
+  font-size: 14px;
+  line-height: 24px;
+}
+.single-collection p.description{
+	text-align: left;
+	font-size: 14px;
+  line-height: 24px;
+	
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: black;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin: 10px 0;
+}
+
+/*-------------------------------------------------------
+  Outdoor style
+-------------------------------------------------------*/
+.single-outdoor-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.single-outdoor-content{
+	background-color: #fff;
+	padding: 15px 0;
+}
+.single-outdoor-title{
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: .02em;
+  line-height: 1.1;
+  margin-bottom: .5em;
+  font-size: 4.375vw;
+  padding: 0 20px;
+  margin-bottom: 5px;
+}
+.outdoor-button {
+  background-color: #e72b1e;
+  border-color: #be1f14;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding-left: .77778em;
+  padding-right: .77778em;
+  font-size: 4.8vw;
+}
